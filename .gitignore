@@ -1,0 +1,43 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments and local environment variables
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# Packaging and test artifacts
+build/
+dist/
+*.egg-info/
+.coverage
+htmlcov/
+use/
+
+# Editors and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*~
+
+# AutoDavid-generated result files
+*_conversion.tsv
+*.go_bp_fat.tsv
+*.kegg_pathway.tsv
+merged*.tsv
